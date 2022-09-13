@@ -1,0 +1,72 @@
+.slider-button {
+    width: 38px;
+    height: 38px;
+    background-image: url('images/icons/button-right.svg');
+    cursor: pointer;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+}
+
+.slider-prev {
+    transform: rotate(180deg);
+}
+
+.slider-pagination-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.slider-pagination-item {
+
+}
+
+.slider-pagination-button {
+    width: 12px;
+    height: 12px;
+    background: #fcfcfc;
+    opacity: 0.3;
+    border-radius: 50%;
+    border: none;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.slider-pagination-button-current {
+    width: 12px;
+    height: 12px;
+    background: #fcfcfc;
+    border-radius: 50%;
+    border: none;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.slider-wrapper {
+    position: relative;
+}
+
+.slider-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+}

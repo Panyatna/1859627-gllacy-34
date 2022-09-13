@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body style="background-color: #FEAFC3;">
     <div class="container">
       <main>
+        <!--
         <div class="all">
           <input checked type="radio" name="respond" id="desktop">
             <article id="slider">
@@ -30,6 +31,46 @@
               </div>
             </article>
         </div>
+        -->
+        <section class="slider">
+          <h2 class="slider-header">Нежный пломбир с клубничным джемом</h2>
+          <p class="slider-text">Натуральное мороженое из свежих сливок и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи.</p>
+          <button>Заказать</button>
+          <div class="slider-wrapper">
+            <img class="slider-image" src="images/ice-cream.png" alt="Варианты мороженых.">
+            <div class="slider-controls">
+              <button class="slider-button slider-next"></button>
+              <button class="slider-button slider-prev"></button>
+            </div>
+            <ol class="slider-pagination-list">
+              <li class="slider-pagination-item">
+                <button class="slider-pagination-button-current" type="button">
+                  <span class="visually-hidden">1 фото.</span>
+                </button>
+              </li>
+              <li class="slider-pagination-item">
+                <button class="slider-pagination-button" type="button">
+                  <span class="visually-hidden">2 фото.</span>
+                </button>
+              </li>
+              <li class="slider-pagination-item">
+                <button class="slider-pagination-button" type="button">
+                  <span class="visually-hidden">3 фото.</span>
+                </button>
+              </li>
+            </ol>
+          </div>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </section>
       </main>
     </div>
   </body>
