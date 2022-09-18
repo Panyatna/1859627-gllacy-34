@@ -1,6 +1,35 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-400.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-700.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/inter-900.woff2");
+  font-display: swap;
+}
+
 body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    background: #feafc3;
+    color: #2d3440;
     margin: 0;
-    padding: 0;
 }
 
 .container {
@@ -146,10 +175,60 @@ body {
     margin-right: 16px;
     border-radius: 50%;
     border: 2px solid rgba(252, 252, 252, 0.3);
+    height: 24px;
 }
 
 .youtube-button {
     top: 10px;
+}
+
+.order-button:hover {
+  background: rgba(252, 252, 252, 0.4);
+  outline: 4px solid #fcfcfc;
+  box-shadow: 0 4px 15px rgba(133, 133, 133, 0.15);
+  border-radius: 26px;
+}
+
+.order-button:active {
+  background: #fcfcfc;
+  outline: 2px solid #2d3440;
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+}
+
+.order-button:focus-visible {
+  background: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #2d3440;
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+}
+
+.order-button:disabled {
+  background: #e7e7e7;
+  outline: 4px solid rgba(252, 252, 252, 0.4);
+  border-radius: 26px;
+  color: #b9b9b9;
+}
+
+.order-button {
+  min-width: 176px;
+  min-height: 44px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  border: none;
+  outline: 4px solid rgba(252, 252, 252, 0.4);
+  box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+  background: #fcfcfc;
+  color: #2d3440;
+  cursor: pointer;
+}
+
+.vk-button,
+.telegramm-button,
+.youtube-button {
+    display: block;
 }
 
 .visually-hidden {
