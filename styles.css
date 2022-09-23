@@ -74,6 +74,7 @@ body {
     font-size: 20px;
     line-height: 24px;
     font-weight: 700;
+    color: #2D3440;
 }
 
 .product-text {
@@ -82,12 +83,14 @@ body {
     font-size: 16px;
     line-height: 22px;
     font-weight: 400;
+    color: #565C66;
 }
 
 .product-image {
     position: absolute;
     top: -51px;
     right: 51px;
+    border-radius: 50%;
 }
 
 .product-price {
@@ -105,4 +108,19 @@ body {
     position: absolute;
     right: 40px;
     bottom: 24px;
+    color: #FCFCFC;
+    border-radius: 50%;
+}
+
+.product-button:hover {
+    color: #2D3440;
+    outline: 2px solid #FF2F64;
+}
+
+.s:hover {
+    fill: rgba(252, 252, 252, 0.3);
+}
+
+.product-link {
+    text-decoration: none;
 }
